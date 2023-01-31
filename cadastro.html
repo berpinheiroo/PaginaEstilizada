@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="headerSection">
+        <article class="searchSection headerPart">
+            <label for="searchBar "></label>
+            <input type="text" id="searchBar" />
+        </article>
+        <article class="navBar headerPart">
+            <a style="color: black" class="navOptions" href="categorias.html">Categorias</a>
+            <a style="color: black" class="navOptions" href="ofertas.html">Ofertas do Dia</a>
+            <a style="color: black" class="navOptions" href="historico.html">Histórico</a>
+            <a style="color: black" class="navOptions" href="moda.html">Moda</a>
+            <a style="color: black" class="navOptions" href="cadastro.html">Cadastrar</a>
+        </article>
+    </section>
+    <section class="content">
+        <section class="register">
+            <section class="info">
+                <h3><label for="name">Nome</label></h3>
+                <p>
+                    <input type="text" name="name" placeholder="Ex: João123" id="name" />
+                </p>
+            </section>
+            <section class="info">
+                <h3><label for="email">Email</label></h3>
+                <p>
+                    <input type="text" name="email" placeholder="Ex: abcdef@gmail.com" id="email" />
+                </p>
+            </section>
+            <section class="info">
+                <h3><label for="password">Senha</label></h3>
+                <p>
+                    <input type="text" name="password" id="password" />
+                </p>
+            </section>
+            <section class="info">
+                <h3><label for="repeatedPassword">Repita a Senha</label></h3>
+                <p>
+                    <input type="text" name="repeatedPassword" id="repeatedPassword" />
+                </p>
+            </section>
+            <section class="info">
+                <h3><span>Gênero</span></h3>
+                <p>
+                    <select name="gender">
+                        <option value="female" selected>Feminino</option>
+                        <option value="male">Masculino</option>
+                        <option value="other">Outro</option>
+                    </select>
+                </p>
+            </section>
+            <div class="info">
+                <h3><button type="submit">Registrar</button></h3>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
